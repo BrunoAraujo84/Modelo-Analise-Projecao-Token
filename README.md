@@ -85,28 +85,28 @@ Para executar este projeto, você precisará das seguintes bibliotecas e depend�
 ### Instalação
 
 1. Clone o repositório:
-   \`\`\`sh
+   ```sh
    git clone https://github.com/BrunoAraujo84/Modelo-Analise-Projecao-Token.git
    cd Modelo-Analise-Projecao-Token
-   \`\`\`
+   ```
 
 2. Crie um ambiente virtual e ative-o:
-   \`\`\`sh
+   ```sh
    python -m venv venv
    source venv/bin/activate  # No Windows use \`venv\Scripts\activate\`
-   \`\`\`
+   ```
 
 3. Instale as dependências listadas no arquivo `requirements.txt`:
-   \`\`\`sh
+   ```sh
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 4. Configure as seguintes variáveis de ambiente com suas respectivas chaves de API:
-   \`\`\`
+   ```
    - GEMINI_API_KEY
    - LLAMA3_API_KEY
    - SERPER_API_KEY
    - OPENAI_API_KEY
    - BOT_TELEGRAM_API_KEY
    - BOT_TELEGRAM_CHAT_ID
-   \`\`\`
+   ```
