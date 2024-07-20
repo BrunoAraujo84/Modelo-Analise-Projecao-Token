@@ -53,7 +53,7 @@ Esses resultados são enviados diretamente para um chat no Telegram, proporciona
 
 ## Estrutura do Projeto
 
-\`\`\`sh
+```sh
 ├── Analise_Crewai.py
 ├── CoinGecko_Analise_Token.py
 ├── CoinGecko_Analise_Token_Com_AI.py
@@ -62,7 +62,7 @@ Esses resultados são enviados diretamente para um chat no Telegram, proporciona
 ├── .gitignore
 ├── LICENSE
 └── README.md
-\`\`\`
+```
 
 ## Dependências
 
@@ -86,8 +86,8 @@ Para executar este projeto, você precisará das seguintes bibliotecas e depend�
 
 1. Clone o repositório:
    \`\`\`sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+   git clone https://github.com/BrunoAraujo84/Modelo-Analise-Projecao-Token.git
+   cd Modelo-Analise-Projecao-Token
    \`\`\`
 
 2. Crie um ambiente virtual e ative-o:
