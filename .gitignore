@@ -1,0 +1,26 @@
+# Ignore arquivos e diretórios de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore ambientes virtuais
+.env
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore configurações de IDEs
+.idea/
+.vscode/
+
+# Ignore arquivos de log
+*.log
+
+# Ignore configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos específicos do projeto
+.env

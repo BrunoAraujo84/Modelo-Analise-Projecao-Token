@@ -1,0 +1,13 @@
+requests
+pandas
+numpy
+ta
+scikit-learn
+tensorflow
+crewai
+crewai_tools
+langchain_groq
+langchain_google_genai
+langchain_community.tools
+langchain_core.tools
+langchain_openai
