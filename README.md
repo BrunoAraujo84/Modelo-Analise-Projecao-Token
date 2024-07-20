@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Python](https://img.shields.io/badge/Python-100%25-blue)
-![Last Commit](https://img.shields.io/badge/Last%20Commit-October%202023-yellow)
+![Last Commit](https://img.shields.io/badge/Last%20Commit-July%202024-yellow)
 ![Contribuições](https://img.shields.io/badge/Contribuições-Bem%20Vindas-brightgreen)
 
 ## Descrição do Projeto
@@ -51,18 +51,9 @@ O projeto fornece os seguintes resultados para cada criptomoeda analisada:
 
 Esses resultados são enviados diretamente para um chat no Telegram, proporcionando acesso rápido e conveniente às análises e previsões.
 
-## Descrição do Projeto
-
-O projeto é composto por quatro scripts principais que trabalham em conjunto para coletar dados históricos, calcular indicadores técnicos, realizar análises avançadas com modelos de IA e enviar os resultados via Telegram. A ordem de execução dos scripts é a seguinte:
-
-1. `Analise_Crewai.py`: Este script configura e executa os agentes responsáveis pela otimização dos parâmetros dos indicadores técnicos e dos hiperparâmetros do modelo LSTM.
-2. `CoinGecko_Analise_Token.py`: Este script coleta dados históricos de preços e volumes das criptomoedas, calcula diversos indicadores técnicos e utiliza um modelo LSTM para projeção de preços.
-3. `CoinGecko_Analise_Token_Com_AI.py`: Este script utiliza a Inteligência Artificial Generativa da Google (Geminni) para fornecer uma análise textual detalhada dos dados coletados.
-4. `Envio_Resultado_Telegram.py`: Este script envia os resultados das análises para um chat no Telegram.
-
 ## Estrutura do Projeto
 
-```sh
+\`\`\`sh
 ├── Analise_Crewai.py
 ├── CoinGecko_Analise_Token.py
 ├── CoinGecko_Analise_Token_Com_AI.py
@@ -71,6 +62,7 @@ O projeto é composto por quatro scripts principais que trabalham em conjunto pa
 ├── .gitignore
 ├── LICENSE
 └── README.md
+\`\`\`
 
 ## Dependências
 
@@ -93,25 +85,28 @@ Para executar este projeto, você precisará das seguintes bibliotecas e depend�
 ### Instalação
 
 1. Clone o repositório:
-   ```sh
+   \`\`\`sh
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
+   \`\`\`
 
 2. Crie um ambiente virtual e ative-o:
-   ```sh
+   \`\`\`sh
    python -m venv venv
-   source venv/bin/activate  # No Windows use `venv\Scripts\activate`
+   source venv/bin/activate  # No Windows use \`venv\Scripts\activate\`
+   \`\`\`
 
-3. Instale as dependências listadas no arquivo requirements.txt:
-   ```sh
+3. Instale as dependências listadas no arquivo `requirements.txt`:
+   \`\`\`sh
    pip install -r requirements.txt
+   \`\`\`
 
 4. Configure as seguintes variáveis de ambiente com suas respectivas chaves de API:
-   ```sh
-    - GEMINI_API_KEY
-    - LLAMA3_API_KEY
-    - SERPER_API_KEY
-    - OPENAI_API_KEY
-    - BOT_TELEGRAM_API_KEY
-    - BOT_TELEGRAM_CHAT_ID
-
+   \`\`\`
+   - GEMINI_API_KEY
+   - LLAMA3_API_KEY
+   - SERPER_API_KEY
+   - OPENAI_API_KEY
+   - BOT_TELEGRAM_API_KEY
+   - BOT_TELEGRAM_CHAT_ID
+   \`\`\`
